@@ -24,7 +24,7 @@
 
           <!-- Tampilkan Nama Tamu -->
           <section class="w-full text-center py-10">
-            <h1 class="text-3xl font-bold text-green-700 animate-slide-up">Selamat Datang</h1>
+            <h1 class="text-3xl satisfy-font text-blue-800 animate-slide-up">Kepada Bapak/Ibu</h1>
             <p class="font-medium my-2 text-lg">
               {{ guestName }} <span v-if="partnerName"> & {{ partnerName }}</span>
             </p>

@@ -17,15 +17,15 @@
       <div class="w-6/12 text-center text-xs md:text-lg lg:text-xl">
         <img src="@/assets/frame/frame.png" class="animate__animated animate__swing w-10/12 md:w-8/12 mx-auto" />
 
-        <div class="mt-5 animate__animated animate__zoomInUp">
+        <div class="mt-3 animate__animated animate__zoomInUp">
           <p>{{ weddingDate }}</p>
           <h1 class="satisfy-font text-5xl lg:text-6xl my-4 text-blue-800">{{ couples.join(" & ") }}</h1>
           <p>Semoga menjadi pasangan yang dipertemukan oleh takdir hingga maut yang memisahkan</p>
 
           <!-- Tampilkan Nama Tamu -->
           <section class="w-full text-center py-10">
-            <h1 class="text-3xl satisfy-font text-blue-800 animate-slide-up">Kepada Bapak/Ibu</h1>
-            <p class="font-medium my-2 text-lg">
+            <h1 class="text-2xl satisfy-font text-blue-800 animate-slide-up">Kepada Bapak/Ibu</h1>
+            <p class="font-medium my-2 text-xs">
               {{ guestName }} <span v-if="partnerName"> & {{ partnerName }}</span>
             </p>
           </section>
@@ -34,7 +34,7 @@
           <button
             type="button"
             @click="openInvitation"
-            class="w-10/12 md:w-8/12 text-sm md-text-lg mt-12 font-medium z-50 border border-black-500 text-black-500 bg-light p-2 rounded-full pointer active:scale-90 hover:bg-blue-500 hover:text-gray-100 duration-300"
+            class="w-10/12 md:w-8/12 text-sm md-text-lg font-medium z-50 border border-black-500 text-black-500 bg-light p-2 rounded-full pointer active:scale-90 hover:bg-blue-600 hover:text-gray-100 duration-300"
           >
             <i class="fa-solid fa-book-open mr-1"></i>
             Buka undangan

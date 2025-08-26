@@ -7,22 +7,20 @@
 </template>
 
 <script setup>
-
-import decoration from '@/assets/svg/decoration-2.svg'
+import decoration from "@/assets/svg/decoration-2.svg";
 
 const props = defineProps({
   title: {
     type: String,
-    default: 'The Section'
-  }, 
+    default: "The Section",
+  },
   subtitle: {
     type: String,
-    default: 'Duis splople autem vel eum iriure Dapibus sit amet, tincidunt eu, nibh.'
+    default: "The Wedding Of Iman & Widi",
   },
   textColor: {
     type: String,
-    default: 'text-slate-800'
-  }
-})
-
+    default: "text-slate-800",
+  },
+});
 </script>

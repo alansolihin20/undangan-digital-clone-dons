@@ -2,17 +2,18 @@
   <section class="w-full mb-12">
     <wave class="fill-gray-800"></wave>
     <section class="container-section">
-      <HeaderSection title="Pandangan Pertama"></HeaderSection>
+      <HeaderSection title="Bismillahirrahmanirrahim"></HeaderSection>
       <Card title="Kisah kami berawal dari">
         <template v-slot:body>
-          <p class="text-sm p-6 text-justify">
-            In faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum hendrerit malesuada odio. Fusce ut elit ut augue sollicitudin blandit. Phasellus volutpat lorem. Duis non pede et neque luctus tincidunt. Duis interdum tempus elit. Aenean metus. Vestibulum ac lacus. Vivamus porttitor, massa ut hendrerit bibendum, metus.
-            <br><br>
-            Nunc et sem. Aliquam tempor. Nam lobortis sem non urna. Pellentesque et urna sit amet leo accumsan volutpat. Nam molestie lobortis.
+          <p class="text-sm p-6 leading-relaxed px-4 text-justify">
+            Segala puji bagi Allah yang telah menciptakan makhluk-Nya berpasang-pasangan. Dengan memohon ridho dan rahmat-Nya, kami memulai ikatan suci ini. Semoga Allah jadikan rumah tangga kami sebagai tempat bernaung penuh keberkahan,
+            cinta yang menguatkan iman, dan keturunan yang shalih-shalihah. Aamiin ya Rabbal Alamiin.
+            <br /><br />
+            Semoga Allah jadikan rumah tangga kami sebagai tempat bernaung penuh keberkahan, cinta yang menguatkan iman, dan keturunan yang shalih-shalihah. Aamiin ya Rabbal Alamiin.
           </p>
         </template>
         <template v-slot:footer>
-          <img src="@/assets/images/couples.png" class="w-full" alt="">
+          <img src="@/assets/images/galeri-7.jpg" class="w-full" alt="" />
         </template>
       </Card>
     </section>
@@ -20,9 +21,7 @@
 </template>
 
 <script setup>
-
-import HeaderSection from '@/components/HeaderSection.vue'
-import Card from '@/components/Card.vue'
-import wave from '@/assets/svg/wave.svg'
-
+import HeaderSection from "@/components/HeaderSection.vue";
+import Card from "@/components/Card.vue";
+import wave from "@/assets/svg/wave.svg";
 </script>

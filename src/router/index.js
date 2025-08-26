@@ -1,17 +1,22 @@
-// Router define
-import { createRouter, createWebHistory } from "vue-router"
+// src/router/index.js
+import { createRouter, createWebHistory } from "vue-router";
 
 const routes = [
   {
-    name: 'home',
-    path: '/',
-    component: () => import('@/views/Home.vue')
-  }
-]
+    path: "/",
+    name: "home",
+    component: () => import("@/views/Home.vue"),
+  },
+  {
+    path: "/to/:name?", // param required
+    name: "invite",
+    component: () => import("@/views/Home.vue"),
+  },
+];
 
 const router = createRouter({
+  history: createWebHistory(),
   routes,
-  history: createWebHistory(process.env.BASE_URL)
-})
+});
 
-export default router
+export default router;

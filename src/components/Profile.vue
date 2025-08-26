@@ -7,16 +7,15 @@
 </template>
 
 <script setup>
+import axios from "axios";
+import { ref, onMounted } from "vue";
+import ProfilePict from "@/components/ProfilePict.vue";
 
-import axios from 'axios'
-import { ref, onMounted } from 'vue'
-import ProfilePict from '@/components/ProfilePict.vue'
-
-const couples = ref(null)
+const couples = ref(null);
 onMounted(() => {
-  axios.get('contents/couples.json')
-    .then( res => couples.value = res.data.couples )
-    .catch( err => alert(err) )
-})
-
+  axios
+    .get("contents/couples.json")
+    .then((res) => (couples.value = res.data.couples))
+    .catch((err) => alert(err));
+});
 </script>

@@ -3,18 +3,18 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "couples": "url('@/assets/images/couples.png')",
-        "texture": "url('@/assets/textures/paper.png')",
-        "prewedding": "url('@/assets/prewedding.jpg')"
+        couples: "url('@/assets/images/couples2.jpg')",
+        texture: "url('@/assets/textures/paper.png')",
+        prewedding: "url('@/assets/prewedding.jpg')",
       },
       fontSize: {
-        'xxs': '.65rem',
-        'title': '3.5rem'
+        xxs: ".65rem",
+        title: "3.5rem",
       },
       borderRadius: {
-        '4xl': '2rem'
-      }
+        "4xl": "2rem",
+      },
     },
   },
   plugins: [],
-}
+};

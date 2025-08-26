@@ -6,12 +6,10 @@
 </template>
 
 <script setup>
-
-const props = defineProps({ 
+const props = defineProps({
   bgColor: {
     type: String,
-    default: 'bg-gray-50'
-  }
-})
-
-</script>>
+    default: "bg-gray-50",
+  },
+});
+</script>

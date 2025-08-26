@@ -1,26 +1,28 @@
 {
-	"timelines": [
-		{
-			"title": "Resepsi",
-			"date": "Sabtu, 22 Mei 2022",
-			"time": "08:30 WIB - 09:30 WIB",
-			"location": "Mesjid Jami An Nuur",
-			"address": "Jl. Raden Agung Pangestu KM. 12 Kelurahan Cidro Laras Kecamatan Candi Putih - Brebes, Jawa Timur"
-		},
-		{
-			"title": "Akad Nikah",
-			"date": "Ahad, 21 Mei 2022",
-			"time": "08:00 WIB - 16:30 WIB",
-			"location": "Rumah Mempelai Pria",
-			"address": "Jl. Raden Agung Pangestu KM. 12 Kelurahan Cidro Laras Kecamatan Candi Putih - Brebes, Jawa Timur"
-
-		},
-		{
-			"title": "Siraman",
-			"date": "Jum'at, 20 Mei 2022",
-			"time": "08:00 - 12:00 WIB",
-			"location": "Rumah Mempelai Pria",	
-			"address": "Jl. Raden Agung Pangestu KM. 12 Kelurahan Cidro Laras Kecamatan Candi Putih - Brebes, Jawa Timur"
-		}
-	]
+  "timelines": [
+    {
+      "title": "Selametan Pernikahan",
+      "date": "Jum'at, 12 September 2025",
+      "time": "08:30 WIB S/d Selesai",
+      "location": "Rumah Mempelai Pria",
+      "address": "Konter Abiraya",
+      "map": "https://maps.app.goo.gl/F9CX17Q6vaGfRQec7"
+    },
+    {
+      "title": "Akad Nikah",
+      "date": "Sabtu, 13 September 2025",
+      "time": "08:00 WIB S/d 10:00 WIB",
+      "location": "Yaqouta Villa",
+      "address": "Jalan Telaga Malimping No.2A, RT.002/RW.004, Wr. Menteng, Kec. Cijeruk, Kabupaten Bogor, Jawa Barat 16740",
+      "map": "https://maps.app.goo.gl/PWq1ynJP8emfxEyZ8"
+    },
+    {
+      "title": "Resepsi",
+      "date": "Sabtu, 13 September 2025",
+      "time": "10:00 WIB S/d Selesai",
+      "location": "Yaqouta Villa",
+      "address": "Jalan Telaga Malimping No.2A, RT.002/RW.004, Wr. Menteng, Kec. Cijeruk, Kabupaten Bogor, Jawa Barat 16740",
+      "map": "https://maps.app.goo.gl/PWq1ynJP8emfxEyZ8"
+    }
+  ]
 }

@@ -8,10 +8,10 @@
       class="w-full h-screen bg-slate-100 fixed inset-0 grid place-items-center z-50 bg-texture bg-cover"
     >
       <!-- Frames -->
-      <img class="frame top-0 left-0 animate__animated animate__fadeInLeft" src="@/assets/frame/frame3.png" alt="frame" />
-      <img class="frame top-0 right-0 animate__animated animate__fadeInRight" src="@/assets/frame/frame-mirror.png" alt="frame" />
-      <img class="frame bottom-0 right-0 rotate-180" src="@/assets/frame/frame3.png" alt="frame" />
-      <img class="frame bottom-0 left-0 rotate-180" src="@/assets/frame/frame4.png" alt="frame" />
+      <img class="frame top-0 left-0 animate__animated animate__fadeInLeft" :src="frame1" alt="frame" />
+      <img class="frame top-0 right-0 animate__animated animate__fadeInRight" :src="frame2" alt="frame" />
+      <img class="frame bottom-0 right-0 rotate-180" :src="frame3" alt="frame" />
+      <img class="frame bottom-0 left-0 rotate-180" :src="frame4" alt="frame" />
 
       <!-- Isi Welcome -->
       <div class="w-6/12 text-center text-xs md:text-lg lg:text-xl">
@@ -75,6 +75,10 @@ import "animate.css";
 const couples = ref(["Iman", "Widi"]);
 const weddingDate = ref("Sabtu, 13 September 2025");
 import { useRoute } from "vue-router";
+import frame1 from "@/assets/frame/frame3.png";
+import frame2 from "@/assets/frame/frame-mirror.png";
+import frame3 from "@/assets/frame/frame3.png";
+import frame4 from "@/assets/frame/frame4.png";
 
 const state = useState();
 const bgMusic = ref(null);
